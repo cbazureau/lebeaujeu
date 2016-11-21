@@ -133,6 +133,7 @@
 			$('.scrolly').scrolly({
 				speed: 1000
 			});
+            $('#channels').load('channels.php')
 
 	});
 
