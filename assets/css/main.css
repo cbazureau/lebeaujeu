@@ -3799,3 +3799,10 @@
 			}
 
 		}
+
+ul.facts {
+    text-align: left;
+}
+ul.facts li {
+    margin-bottom: 10px
+}
