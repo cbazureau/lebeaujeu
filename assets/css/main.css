@@ -3093,7 +3093,7 @@
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		padding: 4em 5em 1em 5em ;
 		text-align: center;
 	}
 
@@ -3148,11 +3148,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 4em 0.1em 4em ;
+				padding: 3em 4em 0.1em 4em ;
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 5em 4em 3em 4em ;
 				}
 
 		}
@@ -3160,11 +3160,11 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 4em 3em 0.1em 3em ;
+				padding: 3em 3em 0.1em 3em ;
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 4em 3em 2em 3em ;
 				}
 
 		}
@@ -3172,7 +3172,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 3em 2em 0.1em 2em ;
+				padding: 2em 2em 0.1em 2em ;
 			}
 
 				#header p {
@@ -3185,7 +3185,7 @@
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 3em 2em 1em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3197,11 +3197,11 @@
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 2em 1.5em 0.1em 1.5em ;
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 3em 1.5em 1em 1.5em ;
 				}
 
 		}
@@ -3209,11 +3209,11 @@
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 1.5em 1em 0.1em 1em ;
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 2.5em 1em 0.5em 1em ;
 				}
 
 		}
