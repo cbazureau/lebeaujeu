@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+@import "http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext";
 
 /*
 	Stellar by HTML5 UP
@@ -3142,7 +3143,7 @@
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					width: 140px;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3765,6 +3766,9 @@
 			#footer {
 				padding: 3em 1.5em 1em 1.5em ;
 			}
+			#header.alt .logo img {
+					width: 100px;
+				}
 
 		}
 
@@ -3806,3 +3810,5 @@ ul.facts {
 ul.facts li {
     margin-bottom: 10px
 }
+
+#header h1 {font-family: "Josefin Sans", "Source Sans Pro", Helvetica, sans-serif;}
