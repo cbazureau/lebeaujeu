@@ -2048,6 +2048,12 @@
 				color: #ffffff !important;
 			}
 
+			.button.loading,
+			.button.loading:active,
+			.button.loading:hover {
+				background-color: gray !important;
+			}
+
 /* Form */
 
 	form {

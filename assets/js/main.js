@@ -134,6 +134,10 @@
 				speed: 1000
 			});
             $('#channels').load('channels.php')
+						$('a.special').click(function(){
+							$(this).html("Chargement ...")
+							$(this).addClass("loading")
+						})
 
 	});
 
