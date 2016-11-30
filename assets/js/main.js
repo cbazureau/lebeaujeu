@@ -138,6 +138,7 @@
 							$(this).html("Chargement ...")
 							$(this).addClass("loading")
 						})
+            $('#preload-heroku').html('<img src="https://lebeaujeu.herokuapp.com/images/field.png" width="1" height="1" />')
 
 	});
 
