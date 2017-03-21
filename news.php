@@ -15,6 +15,6 @@ if(isset($obj->news)) {
     }
 }
 
-file_put_contents("toto.txt",$html);
+//file_put_contents("toto.txt",$html);
 
-//echo $html;
+echo $html;
