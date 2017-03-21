@@ -27,8 +27,9 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
-                    $('#channels').load('channels.php')
-                    $('#preload-heroku').html('<img src="https://lebeaujeu.herokuapp.com/images/field.png" width="1" height="1" />')
+					if($('#channels').length) $('#channels').load('channels.php')
+					if($('#news').length) $('#news').load('news.php')
+					if($('#preload-heroku').length) $('#preload-heroku').html('<img src="https://lebeaujeu.herokuapp.com/images/field.png" width="1" height="1" />')
 				}, 100);
 			});
 
