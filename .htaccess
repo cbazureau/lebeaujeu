@@ -5,7 +5,7 @@ RewriteRule ^(.*)$ https://lebeaujeu.com/$1 [R=301,L]
 
 #RewriteCond %{SCRIPT_FILENAME} !-f
 #RewriteCond %{SCRIPT_FILENAME} !-d
-#RewriteRule ^(.*)$ index.html [QSA,L]
+RewriteRule ^/news$ news.html [QSA,L]
 
 AddDefaultCharset utf-8
 
