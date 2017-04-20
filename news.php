@@ -53,7 +53,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"';
             $cats = implode(', ',$news->categories);
             if(!empty($cats)) $cats = "(".$cats.")";
             $html = $html."<article><img class='logo' src='".$news->flux->logo."' /><h1>".$news->title."</h1>" .
-                    "<h2>".$news->date." - ".$news->flux->name." ".$cats."</h2>" .
+                    "<h2>".$news->date." - ".$news->flux->name." ".$cats." ".($news->slack == "true" ? "(Slacké)" : "")."</h2>" .
                     "<h2><a href='".$news->link."'>".$news->link."</a></h2>" .
                     "<div class='description'><p>".substr(trim(str_replace("&nbsp;","",strip_tags($news->description))), 0, 1000)."</p></div></article>";
         }
