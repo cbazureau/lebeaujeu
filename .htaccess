@@ -1,7 +1,11 @@
 RewriteEngine On
+RewriteBase /
 RewriteCond %{HTTP_HOST} ^lebeaujeu\.com [NC]
+RewriteRule ^(.*)$ https://www.lebeaujeu.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.lebeaujeu\.com [NC]
 RewriteCond %{SERVER_PORT} 80 
-RewriteRule ^(.*)$ https://lebeaujeu.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.lebeaujeu.com/$1 [R=301,L]
 
 #RewriteCond %{SCRIPT_FILENAME} !-f
 #RewriteCond %{SCRIPT_FILENAME} !-d
